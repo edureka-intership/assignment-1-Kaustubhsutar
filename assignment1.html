@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="assign1.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <!-- title -->
+    <div class="header">
+        <div class="header_logo1">
+            <b>S</b>
+        </div>
+        <div class="header_logo2" style="float: left;">
+            <b>K</b>
+        </div>
+
+        <div style="float: right;">
+            <div class="login">Login</div>
+            <div class="create-acc">Create an account</div>
+        </div>
+    </div><br>
+
+    <div class="main">
+        <div style="color: rgb(65, 52, 182); font-size: 35px; font-weight: bold;">Breakfast places in Kolhapur</div>
+        <div class="filter-block" style="display: inline-block;">
+            <div class="filter">
+                <label>- Filter</lable><br>
+        
+                    <select>
+                        <option>select city</option>
+                    <option value="Karad">Karad</option>
+                    <option value="Satara">Satara</option>
+                    <option value="Kolhapur">Kolhapur</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>  
+                    </select>
+                        <button style="font-weight: 800;" >Search</button>
+                        
+            </div><br>
+
+            <label style="color:rgb(65, 52, 182); margin-left: 6px; font-weight: bold; font-size: 20px;">- Cuisine</label><br>
+            <div class="cuisines">
+    
+                    <input type="checkbox" value="South Indian" >South Indian <br>
+                    <input type="checkbox" value="North Indian" >North Indian <br>
+                    <input type="checkbox" value="Maharashtrian" >Maharashtrian <br>
+                    <input type="checkbox" value="Punjabi" >Punjabi<br> 
+                    <input type="checkbox" value="Cakery" >Cakery <br><br>
+            
+            </div>
+
+            <label style="color:rgb(65, 52, 182); margin-left: 6px; font-weight: bold; font-size: 20px;">- Cost for two</label><br>
+            <div class="cost">
+                    <input type="radio" value="less than 500">less than 500 <br>
+                    <input type="radio" value=" 500 - 1000">500 - 1000 <br>
+                    <input type="radio" value="1000 - 1500">1000 - 1500<br>
+                    <input type="radio" value="1500 - 2000">1500 - 2000 <br>
+                    <input type="radio" value="2000 +">2000 +<br><br>
+            </div>
+
+                <label style="color:rgb(65, 52, 182); margin-left: 6px; font-weight: bold; font-size: 20px;">- Sort</label><br>
+            <div class="sort">
+                <input type="radio" value="low to high">Price low to high <br>
+                <input type="radio" value="high to low">Price high to low
+            </div>
+        </div>
+
+        <div style="display: inline-block; vertical-align: top;">
+           
+            <div class="results">
+
+                <div style="display: inline-block;">
+                    <img class="image1" src="images/cake.jpeg">                    
+                    </div>
+
+                    <div style="display: inline-block; vertical-align: top; float: right;">
+                        <div style="text-align: left; margin-top: 45px; margin-right: 10px;">   
+                            <span style="font-size: 20px; color:rgb(65, 52, 182) ; font-weight: bold;">The Big Chill Cakery</span><br>
+                            <span style=" color:rgb(65, 52, 182) ; font-weight: bold;">FORT</span><br>
+                            <span>Shop 1, Plot D, Samruddhi Complex, Chincholi …</span>    
+                         </div>
+                    </div>
+
+                    <div>
+                        <table style="margin-left: 30px;">
+                            <tr style="text-align: left; color: #636F88;">
+                                <th>CUISINES</th>
+                                <td> Bakery</td>
+                            </tr>
+                            <tr style="text-align: left; color: #636F88;">
+                                <th>COST FOR TWO</th>
+                                <td>:   $700</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>                
+            </div>      
+        </div>        
+    </div>
+    
+</body>
+</html>
